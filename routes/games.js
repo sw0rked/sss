@@ -9,7 +9,7 @@ const {
     deleteGame
 } = require('../middlewares/games')
 const { sendAllGames,
-     sendUpdatedGames} = require('../controllers/games')
+     sendUpdatedGames} = require('../controllers/game')
 
 gamesRouter.get("/games",getAllGames,sendAllGames)
 
